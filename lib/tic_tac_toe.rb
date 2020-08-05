@@ -139,9 +139,9 @@ class TicTacToe
       self.turn
     end
     if (self.won? != nil)
-      return "Congratulations #{self.winner}!"
+      puts "Congratulations #{self.winner}!"
     else
-      return "Cat's game!"
+      puts "Cat's game!"
     end
   end
 

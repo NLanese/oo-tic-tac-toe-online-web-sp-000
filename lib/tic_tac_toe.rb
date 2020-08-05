@@ -117,7 +117,7 @@ class TicTacToe
    end
 
    def over?
-     if ((self.won? == truthy) || self.draw?)
+     if ((self.won? != nil) || self.draw?)
        return true
      else
        return false

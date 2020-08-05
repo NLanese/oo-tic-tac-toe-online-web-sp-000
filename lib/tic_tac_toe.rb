@@ -135,18 +135,14 @@ class TicTacToe
    end
 
    def play
-     i = 0
-     until i = 7
-       self.turn
-       if (self.over?)
-         i = 7
-       end
-     end
-     if (self.won?)
-       puts "Congratulations #{self.winner}!"
-     elsif (self.draw?)
-       puts "Cat's Game!"
-     end
-   end
+    until (self.over?)
+      self.turn 
+    end
+    if (self.won? != nil)
+      return "Congratulations #{self.winner}!"
+    else
+      return "Cat's game!"
+    end
+  end
 
  end

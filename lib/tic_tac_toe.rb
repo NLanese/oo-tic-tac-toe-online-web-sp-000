@@ -136,7 +136,7 @@ class TicTacToe
 
    def play
     until (self.over?)
-      self.turn 
+      self.turn
     end
     if (self.won? != nil)
       return "Congratulations #{self.winner}!"

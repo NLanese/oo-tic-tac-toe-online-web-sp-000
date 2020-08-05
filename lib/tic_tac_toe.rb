@@ -135,7 +135,7 @@ class TicTacToe
    end
 
    def play
-    until (self.over? || self.won? != nil)
+    until (self.over?)
       self.turn
     end
     if (self.won? != nil)

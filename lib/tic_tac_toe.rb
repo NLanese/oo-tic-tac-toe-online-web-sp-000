@@ -141,7 +141,7 @@ class TicTacToe
     if (self.won? != nil)
       puts "Congratulations #{self.winner}!"
     else
-      puts "Cat's game!"
+      puts "Cat's Game!"
     end
   end
 

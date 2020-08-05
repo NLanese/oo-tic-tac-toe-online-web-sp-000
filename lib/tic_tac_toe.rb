@@ -135,6 +135,7 @@ class TicTacToe
    end
 
    def play
+     self.turn
     until (self.over?)
       self.turn
     end
